@@ -5,7 +5,7 @@ localStorage.setItem('()_)KSMNJAIDJsa>>sdj()','True');
 if (localStorage.getItem("USER_ID") == null){
     localStorage.setItem('()_)KSMNJAIDJsa>>sdj()','False');
 
-    window.location.href= '/';
+    window.location.href= URL;
     
 }
 localStorage.setItem('ID_Task','0')

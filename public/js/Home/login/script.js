@@ -7,7 +7,7 @@ function send_login_data(){
         show_notif('notification','title_notif','text_notif',"time_line",split_output[0], split_output[1]);
         if (split_output[0]=="Your logined"){
             setTimeout(() => {
-                window.location.href= '/workspace/dashboard';
+                window.location.href= URL+'/workspace/dashboard';
                 localStorage.setItem('USER_ID',split_output[2]);
             }, 7000);
         }
@@ -18,6 +18,6 @@ function send_login_data(){
 
 
 if(localStorage.getItem("()_)KSMNJAIDJsa>>sdj()") == "True"){
-    window.location.href= '/workspace/dashboard';
+    window.location.href= URL+'/workspace/dashboard';
 }
 
